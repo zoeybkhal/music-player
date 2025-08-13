@@ -1,0 +1,24 @@
+{
+  "name": "music-player",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoeybkhal/music-player.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoeybkhal/music-player/issues"
+  },
+  "homepage": "https://github.com/zoeybkhal/music-player#readme",
+  "description": "",
+  "devDependencies": {
+    "electron": "^37.2.6"
+  }
+}
