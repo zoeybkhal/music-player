@@ -222,3 +222,11 @@ p {
     background: #0056b3;
     transform: scale(1.1);
 }
+
+.transparent-window {
+    opacity: 0.5; /* 50% transparent */
+}
+
+.transparent-background {
+    background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black background */
+}
