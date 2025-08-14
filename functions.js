@@ -25,6 +25,12 @@ let updateTimer;
 let currentTrack = document.createElement('audio');
 
 let tracklist = [
+    {
+        name: "Xerces",
+        artist: "Deftones",
+        image: "art/xerces_art.png",
+        path: "music/xerces.mp3",
+    },
   {
     name: "D>E>A>T>H>M>E>T>A>L",
     artist: "Panchiko",
@@ -49,13 +55,8 @@ let tracklist = [
     artist: "Paramore",
     image: "art/AL.png",
     path: "music/idleWorship.mp3",
-  },
-  {
-    name: "Xerces",
-    artist: "Deftones",
-    image: "art/xerces_art.png",
-    path: "music/xerces.mp3",
   }
+
 ];
 
 
@@ -160,6 +161,8 @@ function progressBarUpdate() {
     }
 
 }
+
+
 
 // Initialize the player when the page loads
 document.addEventListener('DOMContentLoaded', function() {

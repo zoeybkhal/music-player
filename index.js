@@ -1,14 +1,20 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, Menu } = require('electron');
 
 function createWindow() {
     const mainWindow = new BrowserWindow({
-        width: 450,
-        height: 750,
+        width: 380,
+        height: 580,
+        resizable: false,
+        maximizable: false,
+        fullscreenable: false,
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false,
         }
     });
+
+    // Remove the menu completely
+    Menu.setApplicationMenu(null);
 
     mainWindow.loadFile('index.html');
 
