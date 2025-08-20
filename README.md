@@ -1,7 +1,7 @@
 # Electron Music Player 🎵
 
 A simple desktop music player built with Electron.js. 
-This is a personal project I worked on to play my favourite tracks, however feel free to clone the repo and replace my songs with your own!
+This is a personal project I worked on to play my favourite tracks, however feel free to fork and clone the repo to replace my songs with your own!
 
 <img width="320" alt="image" src="https://github.com/user-attachments/assets/385c58bf-7edd-454b-ae31-e59ba735fe76" />
 
